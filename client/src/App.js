@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import SearchBooks from './pages/SearchBooks';
 import SavedBooks from './pages/SavedBooks';
 import Navbar from './components/Navbar';
+<<<<<<< HEAD
 import {
   ApolloClient,
   InMemoryCache,
@@ -38,6 +39,11 @@ function App() {
   
   return (
     <ApolloProvider client={client}>
+=======
+
+function App() {
+  return (
+>>>>>>> 633628d7eb6cf4d5317c3cc5cf6749d67476fc30
     <Router>
       <>
         <Navbar />
@@ -48,7 +54,10 @@ function App() {
         </Switch>
       </>
     </Router>
+<<<<<<< HEAD
     </ApolloProvider>
+=======
+>>>>>>> 633628d7eb6cf4d5317c3cc5cf6749d67476fc30
   );
 }
 
